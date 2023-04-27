@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Name>Convert Unit To Metric</Name>
+		<Assembly>BaanRevit.dll</Assembly>
+		<AddInId>
+			12C3D7FE-2671-4BB8-A29B-E07EE47D1F04
+		</AddInId>
+		<FullClassName>BaanRevit.ConvertUnitToMetric</FullClassName>
+		<Text>Convert unit to metric system</Text>
+		<Description>Click and comfirm to convert unit.</Description>
+		<VendorId>Chatpong</VendorId>
+		<VendorDescription>@BaanConner</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+</RevitAddIns>
