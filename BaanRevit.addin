@@ -3,14 +3,34 @@
 	<AddIn Type="Command">
 		<Name>Convert Unit To Metric</Name>
 		<Assembly>BaanRevit.dll</Assembly>
-		<AddInId>
-			12C3D7FE-2671-4BB8-A29B-E07EE47D1F04
-		</AddInId>
+		<AddInId>12C3D7FE-2671-4BB8-A29B-E07EE47D1F04</AddInId>
 		<FullClassName>BaanRevit.ConvertUnitToMetric</FullClassName>
-		<Text>Convert unit to metric system</Text>
+		<Text>Convert project unit to metric system</Text>
 		<Description>Click and comfirm to convert unit.</Description>
 		<VendorId>Chatpong</VendorId>
 		<VendorDescription>@BaanConner</VendorDescription>
 		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
 	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>Project Unit - Imperial</Name>
+		<Assembly>BaanRevit.dll</Assembly>
+		<AddInId>C220BC78-52CF-4D02-B2BF-6FD2A5446B56</AddInId>
+		<FullClassName>BaanRevit.ConvertUnitToImperial</FullClassName>
+		<Text>Convert project unit to imperial system</Text>
+		<Description>Click and comfirm to convert unit.</Description>
+		<VendorId>Chatpong</VendorId>
+		<VendorDescription>@BaanConner</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Application">
+		<Name>ApplicationPlugin</Name>
+		<Assembly>BaanRevit.dll</Assembly>
+		<AddInId>043AA50B-BF42-4ECE-9F36-B9201BA8DADD</AddInId>
+		<FullClassName>BaanRevit.ExternalApplication</FullClassName>
+		<VendorId>Chatpong Deepet</VendorId>
+		<VendorDescription>cpac_bim01@scg.com, BIM modeler</VendorDescription>
+	</AddIn>
+	
 </RevitAddIns>
