@@ -62,6 +62,8 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddSharedParameter.cs" />
+    <Compile Include="AddSharedParameterToFamily.cs" />
     <Compile Include="Commands\ConvertUnitToMetric.cs" />
     <Compile Include="Commands\ConvertUnitToImperial.cs" />
     <Compile Include="ExternalApplication.cs" />

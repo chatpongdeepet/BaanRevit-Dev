@@ -36,12 +36,16 @@ namespace BaanRevit
             PushButtonData convertToImperialButton = new PushButtonData("Button1", "Imperial Unit", path, "BaanRevit.ConvertUnitToImperial");
             PushButton convertToImperialPushButton = convertUnit.AddItem(convertToImperialButton) as PushButton;
             convertToImperialPushButton.LargeImage = bitmapImperial;
-            convertToImperialPushButton.ToolTip = "Click to convert current unit project to Imperial unit.";
+            convertToImperialPushButton.ToolTip = "Click to convert current unit project to Imperial unit.\n" +
+                "Author: Chatpong Deepet\n" +
+                "E-mail: chatpond@baancorner.com";
 
             PushButtonData convertToMetricButton = new PushButtonData("Button2", "Metric Unit", path, "BaanRevit.ConvertUnitToMetric");
             PushButton convertToMetricPushButton = convertUnit.AddItem(convertToMetricButton) as PushButton;
             convertToMetricPushButton.LargeImage = bitmapMetric;
-            convertToMetricPushButton.ToolTip = "Click to convert current unit project to Metric unit.";
+            convertToMetricPushButton.ToolTip = "Click to convert current unit project to Metric unit.\n" +
+                "Author: Chatpong Deepet\n" +
+                "E-mail: chatpond@baancorner.com";
 
 
             return Result.Succeeded;
